@@ -2,7 +2,7 @@
 
 const Webcam = require('node-webcam');
 const io = require('socket.io-client');
-const socket = io("http://localhost:3000"); // Replace with your server IP
+const socket = io("https://cli-testing-1.onrender.com"); // Replace with your server IP
 
 const webcam = Webcam.create({
   width: 320,
